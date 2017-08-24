@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B109D648-D090-40E6-81CD-D473CFECC21B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MtTweenDllExport</RootNamespace>
+    <AssemblyName>MtTween</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\UnityDll\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityDll\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\Assets\Script\Framework\MtAction.cs">
+      <Link>Framework\MtAction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtActionEase.cs">
+      <Link>Framework\MtActionEase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtActionInstant.cs">
+      <Link>Framework\MtActionInstant.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtActionInterval.cs">
+      <Link>Framework\MtActionInterval.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtActionManager.cs">
+      <Link>Framework\MtActionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtActionValue.cs">
+      <Link>Framework\MtActionValue.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtAnimate.cs">
+      <Link>Framework\MtAnimate.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtAnimation.cs">
+      <Link>Framework\MtAnimation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtBezier.cs">
+      <Link>Framework\MtBezier.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtBlink.cs">
+      <Link>Framework\MtBlink.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtColor.cs">
+      <Link>Framework\MtColor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtDelayTime.cs">
+      <Link>Framework\MtDelayTime.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtEase.cs">
+      <Link>Framework\MtEase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtMove.cs">
+      <Link>Framework\MtMove.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtRepeat.cs">
+      <Link>Framework\MtRepeat.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtRotate.cs">
+      <Link>Framework\MtRotate.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtScale.cs">
+      <Link>Framework\MtScale.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtSequence.cs">
+      <Link>Framework\MtSequence.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtSpawn.cs">
+      <Link>Framework\MtSpawn.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtSpeed.cs">
+      <Link>Framework\MtSpeed.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Assets\Script\Framework\MtTween.cs">
+      <Link>Framework\MtTween.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Framework\" />
+  </ItemGroup>
+</Project>

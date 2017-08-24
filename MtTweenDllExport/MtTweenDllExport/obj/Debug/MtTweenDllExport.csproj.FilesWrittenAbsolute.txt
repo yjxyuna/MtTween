@@ -1,0 +1,7 @@
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/bin/Debug/MtTween.dll.mdb
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/bin/Debug/MtTween.dll
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/obj/Debug/MtTween.dll
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/obj/Debug/MtTween.dll.mdb
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/bin/Debug/UnityEditor.dll
+/Users/mt_imac/Desktop/Project/GitHub/MtTween/MtTweenDllExport/MtTweenDllExport/bin/Debug/UnityEngine.dll
